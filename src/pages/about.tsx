@@ -1,12 +1,12 @@
-import { HeadFC } from "gatsby";
 import * as React from "react";
+import { HeadFC } from "gatsby";
+import Layout from "../components/layout";
 
 const AboutPage: React.FC = React.memo(() => {
   return (
-    <main>
-      <h1>About Me</h1>
+    <Layout pageTitle="About Me">
       <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
-    </main>
+    </Layout>
   );
 });
 
