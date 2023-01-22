@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Link } from "gatsby";
+import { HeadFC, Link } from "gatsby";
 import { container, heading, navLinks, navLinkItem, navLinkText } from "./layout.module.css";
 
 type Props = {
