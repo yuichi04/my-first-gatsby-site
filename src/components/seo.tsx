@@ -6,6 +6,7 @@ type Props = {
 };
 
 const Seo: React.FC<Props> = React.memo(({ title }) => {
+  // dataをdata layerから取得する
   const data = useStaticQuery(graphql`
     query {
       site {
